@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.platform = :ios
   s.name             = 'BirdShop'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BirdShop.'
+  s.summary          = 'BirdShop For PetsShop.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
