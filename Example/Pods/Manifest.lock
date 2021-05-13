@@ -1,0 +1,16 @@
+PODS:
+  - BirdShop (0.1.0)
+
+DEPENDENCIES:
+  - BirdShop (from `../`)
+
+EXTERNAL SOURCES:
+  BirdShop:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BirdShop: e060e9aa94051ed0cb1d4c3d1751848163c452af
+
+PODFILE CHECKSUM: 3b98fa388a7dc2b3ff29f3c4a4efdc9a7b185ba4
+
+COCOAPODS: 1.8.4

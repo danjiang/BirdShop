@@ -7,6 +7,7 @@
 #
 
 Pod::Spec.new do |s|
+    s.platform = :ios
   s.name             = 'BirdShop'
   s.version          = '0.1.0'
   s.summary          = 'A short description of BirdShop.'
@@ -32,9 +33,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'BirdShop/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'BirdShop' => ['BirdShop/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'BirdShop' => ['BirdShop/Assets/*.{png,jpeg,jpg}']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
